@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "WebApplication5.Controllers.clinicController",
+    "Method": "login",
+    "RelativePath": "api/clinic/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WebApplication5.DTOs.login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.clinicController",
+    "Method": "Register",
+    "RelativePath": "api/clinic/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WebApplication5.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
